@@ -10,7 +10,18 @@ namespace CTCI_1._8_String_Rotation
     {
         static void Main(string[] args)
         {
+            PrintHeaderMsg(1, 8, "String Rotation");
 
+
+
+            Console.ReadLine();
+        }
+
+        private static void PrintHeaderMsg(int chapter, int problem, string title)
+        {
+            Console.WriteLine("Cracking the Coding Interview");
+            Console.WriteLine("Chapter " + chapter + ", Problem " + chapter + "." + problem + ": " + title);
+            Console.WriteLine();
         }
     }
 }
