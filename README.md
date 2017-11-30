@@ -13,9 +13,9 @@
 
 <B>Complexity: </B>
 <P>Algorithm runs in O(N) time
-<P>Every element must be touched once to check for a match.
-<P>I'm assuming String.Contains() uses the <a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm">Boyer-Moore algorithm</a>
+<blockquote>Every element must be touched once to check for a match.
+<P>I'm assuming String.Contains() uses the <a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm">Boyer-Moore algorithm</a></blockquote>
 
 <P>Algorithm requires O(N) space
-<P>The method concatenates one of the strings to itself, requiring 2 characters of memory for every 1 character in that string.        
+<blockquote><P>The method concatenates one of the strings to itself, requiring 2 characters of memory for every 1 character in that string.</blockquote>   
 
