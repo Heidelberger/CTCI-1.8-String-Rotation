@@ -9,12 +9,12 @@ Algo:
 
 The doubling fixes the "word wrap" (AKA rotation) problem.
 
-<blockquote>
-Complexity: Algorithm runs in O(N) time
+##Complexity: 
+<P>Algorithm runs in O(N) time
             Every element must be touched once to check for a match.
             I'm assuming String.Contains() uses the <a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm">Boyer-Moore algorithm</a>
 
-            Algorithm requires O(N) space
+            <P>Algorithm requires O(N) space
             The method concatenates one of the strings to itself, requiring
             2 characters of memory for every 1 character in that string.        
-</blockquote>
+
