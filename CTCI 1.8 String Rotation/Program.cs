@@ -45,8 +45,8 @@ namespace CTCI_1._8_String_Rotation
         //             https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm
         //
         //             Algorithm requires O(N) space
-        //             Because I concatenate one of the strings, as the string grows
-        //             I'll need more memory.
+        //             The method concatenates one of the strings to itself, requiring
+        //             2 characters of memory for every 1 character in that string.        
         //
         private static bool isRotation_DotNet(ref string string0, ref string string1)
         {
@@ -55,11 +55,8 @@ namespace CTCI_1._8_String_Rotation
 
             if (string0.Length != string1.Length)
                 return false;
-            
-            if ((string1 + string1).Contains(string0))
-                return true;
 
-            return false;
+            return (string1 + string1).Contains(string0);
         }
 
         private static void PrintHeaderMsg(int chapter, int problem, string title)
