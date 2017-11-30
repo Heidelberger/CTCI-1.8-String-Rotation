@@ -10,6 +10,7 @@ namespace CTCI_1._8_String_Rotation
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
