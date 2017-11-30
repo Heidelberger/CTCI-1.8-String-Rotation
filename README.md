@@ -1,16 +1,20 @@
 # CTCI 1.8 String Rotation
 ## Cracking the Coding Interview, Chapter 1 Problem 1.8
 
-Check if strings <BR>are null or empty. Check if same length.
+Algo:
+1. Check if strings are null or empty. 
+2. Check if same length.
+3. Double one string (concatenate it with itself)
+3. Check if the doubled string contains the other string
 
-Double one of the strings and see if it contains the other (fixes 
-"word wrap" (AKA rotation) problem.
- 
+The doubling fixes the "word wrap" (AKA rotation) problem.
+
+<blockquote>
 Complexity: Algorithm runs in O(N) time
             Every element must be touched once to check for a match.
-            I'm assuming String.Contains() uses the Boyer-Moore algorithm.
-            https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm
+            I'm assuming String.Contains() uses the <a href="https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm">Boyer-Moore algorithm</a>
 
             Algorithm requires O(N) space
             The method concatenates one of the strings to itself, requiring
             2 characters of memory for every 1 character in that string.        
+</blockquote>
