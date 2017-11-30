@@ -1,7 +1,7 @@
 # CTCI 1.8 String Rotation
 ## Cracking the Coding Interview, Chapter 1 Problem 1.8
 
-Check if strings are null or empty. Check if same length.
+Check if strings <BR>are null or empty. Check if same length.
 
 Double one of the strings and see if it contains the other (fixes 
 "word wrap" (AKA rotation) problem.
