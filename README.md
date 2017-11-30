@@ -7,6 +7,7 @@
 <li>Check if same length.</li>
 <li>Double one string (concatenate it with itself).</li>
 <li>Check if the doubled string contains the other string.</li>
+</ol>
 
 <P>The doubling fixes the "word wrap" (AKA rotation) problem.
 
